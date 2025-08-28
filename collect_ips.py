@@ -5,10 +5,8 @@ import os
 
 # 目标URL列表
 urls = ['https://api.uouin.com/cloudflare.html', 
-        'https://ip.164746.xyz',
-         'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressescsv.csv',
-        'https://raw.githubusercontent.com/cmliu/CFcdnVmess2sub/main/addressesapi.txt'
-               ]
+        'https://ip.164746.xyz'
+     ]
 
 # 正则表达式用于匹配IP地址
 ip_pattern = r'\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}'
